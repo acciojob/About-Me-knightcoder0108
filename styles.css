@@ -1,1 +1,71 @@
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.info {
+    flex: 1;
+}
+
+.info h2, .info p {
+    margin: 5px 0;
+}
+
+.about {
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    margin-bottom: 10px;
+}
+
+.skills {
+    margin-bottom: 20px;
+}
+
+.skills h2 {
+    margin-bottom: 10px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skill span {
+    width: 100px;
+    font-weight: bold;
+}
+
+.progress-bar {
+    background-color: #4caf50;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
